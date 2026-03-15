@@ -1,0 +1,267 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+background: linear-gradient(90deg, #0b3e27, #197149);
+
+
+}
+
+
+
+#logo{
+     margin: 6px 12px;
+    
+}
+
+#logo img{   
+
+            width: 51px;
+    height: 45px;
+        border-radius: 41px;
+
+}
+
+#navbar ul {
+    display: flex;
+    padding-left: 0px;
+}
+
+
+#navbar ul li{
+    list-style: none;
+
+
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+        padding: 4px 22px;
+
+}
+
+#navbar ul li a:hover{
+    color: rgb(48, 235, 160);
+        padding: 4px 22px;
+    font-size: 1.2rem;
+}
+
+/* Home-section*/
+
+.homeSection{
+    font-family: sans-serif;
+    position: relative;
+  height:400px;
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap ;
+
+
+}
+    
+    .homeSection::before{
+    content: "";
+    position: absolute;  
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('backgrpund.jpg') no-repeat center center/cover;
+
+}
+    
+
+
+.h3headings{
+        font-size: 1.5rem;
+        color: white;
+    }
+
+.homeSection p{
+    font-size: 1rem;
+    color: white;
+    }
+.btn{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #197149;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+.serheadings {
+    margin: 15px 8px;
+    font-family:sans-serif ;
+    text-align: center;
+    font-size: 1.7rem
+}
+#services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 27px;
+    background-color: rgb(223 220 220);
+    border: 2px solid brown;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 422px;
+    text-align: justify;
+    margin: 4px 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.card img{ 
+
+    margin-top: 4px;
+    width: 50%;  
+    height:120px;
+
+} 
+.card h5{
+    margin: 5px 3px;
+    font-size: 1.1rem;
+}
+.card p{
+    margin:5px 4px;
+    font-size: 1.1rem;
+}
+
+.socialAccount{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.socialAccount img{
+    height: 8.1vh;
+    padding: 0px 4px;
+}
+.aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;  
+position: relative;
+}
+
+.aboutus::before{
+position: absolute;
+    content: " ";
+    background: url('aboutuss.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+    box-shadow:-1px 6px 17px 4px grey;
+    
+}
+ .aboutus img{
+    border: 2px solid white;
+    height: 250px;
+    margin-right: 25px;
+}
+.aboutus p {
+    box-sizing: border-box;
+    width: 500px;
+    margin: 0px 0px 0px 20px;
+    text-align:justify ;
+    font-family:sans-serif ;
+    font-size: 1.2rem;
+}
+      
+
+#contactbox{
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+}
+#contactbox::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url("customer\ support.jpg")no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+#contactbox input,#contactbox textarea{
+padding: 0.2rem;  
+width: 100%; 
+border-radius: 10px;
+margin: 4px 0px 4px ;
+border: white;
+
+}
+
+#contactbox label{
+    font-size: 1.2rem;
+}
+
+.belowbtn button{
+    width: 40%;
+    height: 35px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.2rem; 
+    border-radius: 10px; 
+    font-size:1.2rem ;
+
+
+}
+.belowbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.belowbtn #reset{
+    font-size:1.2rem ;
+    cursor: pointer;
+    height: 35px;
+    width: 40%;
+    margin-left: 4px;
+    background: transparent;
+    border: 1px solid black;
+}
+
+#reset:hover{
+    color: rgb(248, 250, 249);
+        background-color: rgb(107, 110, 109);
+
+}
+.belowbtn button:hover{
+    color: rgb(248, 250, 249);
+    background-color: rgb(107, 110, 109);
+}
+
+footer{
+    font-size: 1.2rem;
+    text-align: center;
+}

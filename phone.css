@@ -1,0 +1,63 @@
+
+#navbar{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#navbar ul {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#navbar ul li a{
+    font-size: 0.8rem;
+}
+#logo{
+    
+    margin: 2px 10px;
+}
+
+.homeSection{
+
+    flex-wrap:wrap ;
+    height: auto;
+}
+.aboutus{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.aboutus img{
+height: 35vh;    
+
+}
+.aboutus p{
+    width:50%;
+    margin: 0px;
+    text-align:justify ;
+
+    
+}
+ .aboutus img{
+    border: 2px solid white;
+    margin:auto}
+.btn{   
+     margin-bottom: 4px;
+}
+.card img{ 
+    margin-top: 8px;
+    }
+    .card{
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .belowbtn{
+        flex-direction: column;
+    }
+    .belowbtn #reset{
+        width: auto;
+    }
+    .belowbtn button{
+        width:auto
+    }
